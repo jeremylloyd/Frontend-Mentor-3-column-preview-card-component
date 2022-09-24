@@ -60,6 +60,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 25px;
+  background-color: var(--theme-light-grey);
 }
 
 .panel {
