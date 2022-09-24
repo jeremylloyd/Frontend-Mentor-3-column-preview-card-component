@@ -30,3 +30,16 @@ Users should be able to:
 ### What I learned
 
 - CSS [BEM](https://getbem.com/introduction/) convention
+  - It reduces the amount of time I spend coming up with intuitive names for elements
+  - The result is some of the most maintainable CSS I've written for any project
+  - Elements with a modifier need to include the base element in the class:
+    - Good:
+      ```
+      <div class="block block--mod">...</div>
+      <div class="block block--size-big block--shadow-yes">...</div>
+      ```
+    - Bad:
+      ```
+      <div class="block--mod">...</div>
+      ```
+- Trying to centre something? Use `flex` - it's generally less confusing than messing with margins.
